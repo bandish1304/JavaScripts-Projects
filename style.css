@@ -1,60 +1,24 @@
-
-body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-#display{
-    width: 100%;
-    padding: 20px;
-    font-size: 5rem;
-    text-align: left;
-    border: none;
-    background-color:  hsl(0, 0%, 20%);
-    color: white;
-}
-#calculator{
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(0, 0%, 15%);
-    border-radius: 15px;
-    max-width: 500px;
-    overflow: hidden;
+
+}
+#btnContainer{
+    text-align: center;
 }
 
-#keys{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 25px;
-}
-
-button{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: none;
-    background-color: hsl(0, 0%, 30%);
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
     color: white;
-    font-size: 3rem;
-    font-weight: bold;
+    background-color: hsl(271, 80%, 68%);
+    border-radius: 5px;
     cursor: pointer;
-}
-button:hover{
-    background-color: hsl(0, 0%, 40%);
+
 }
 
-button:active{
-    background-color: hsl(0, 0%, 50%);
-}
-.operator-btn{
-    background-color: hsl(35, 100%, 55%);
-}
-.operator-btn:hover{
-    background-color: hsl(35, 100%, 65%);
-}
-.operator:active{
-    background-color: hsl(35, 100%, 65%);
+.buttons:hover{
+    background-color: hsl(271, 80%, 58%);
 }
